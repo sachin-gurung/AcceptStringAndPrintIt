@@ -10,6 +10,13 @@ namespace AcceptStringAndPrintIt
     {
         static void Main(string[] args)
         {
+            string str;
+
+            Console.Write("Accept a string from keyboard :");
+            Console.Write("-----------------------------------");
+            Console.Write("Input the string : ");
+            str = Console.ReadLine();
+            Console.Write("The string you entered is : {0}", str);
         }
     }
 }
